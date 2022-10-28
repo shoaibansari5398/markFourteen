@@ -1,0 +1,31 @@
+body{
+    background-color: #fed7aa;
+    color: #115e59;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    max-width: 15%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+#initial-price{
+    margin-bottom: 1rem;
+}
+#number-of-stocks{
+    margin-bottom: 1rem;
+}
+#current-price{
+    margin-bottom: 1rem;
+}
+button{
+    max-width: 60%;
+    margin: auto;
+}
+#output-div{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
