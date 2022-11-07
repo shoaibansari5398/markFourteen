@@ -15,7 +15,7 @@ function calculateProfitLoss(initial,qty,current)
     else
         if(initial<current){
             var profit=(current-initial)*qty;
-            var profitPercentage=(profit/initial)*100;
+            var profitPercentage=((current-initial)/initial)*100;
             outputDiv.innerText=`Your Profit is ${profit} and profit Percentage is ${profitPercentage}%`;
         }
     else
